@@ -4,7 +4,7 @@ paths:
   data_dir: datasets            # Directory to store processed data, will be created if not existing.
 
 preprocessing:
-  languages: ['de', 'en_us']    # All languages in the dataset.
+  languages: ['de', 'en_us','jp']    # All languages in the dataset.
 
   # Text (grapheme) and phoneme symbols, either provide a string or list of strings.
   # Symbols in the dataset will be filtered according to these lists!
